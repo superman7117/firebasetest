@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#theForm{
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+table {
+  border-spacing: 0px;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  border: 1px solid red;
+  width: 20%;
+}
+
+.newRow {
+  background-color: lime;
+}
+
+
+.grey {
+  color: red;
+  text-decoration: line-through;
+}
+
+#balance {
+  height: 10vw;
+  background-color: limegreen;
+  font-size: 5em;
+}
+.bottom{
+  display:none;
+}
+.topinfo {
+  background-color: lightgrey;
+}
